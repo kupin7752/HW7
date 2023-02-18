@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 1024px;
+  padding: 42px 36px 37px 28px;
+  background-color: #ffffff;
+}
+
+.header {
+  width: 960px;
+  height: 168px;
+  background: linear-gradient(180deg, #fbb7e0 0%, #949eb8 100%);
+  margin-bottom: 14px;
+}
+
+.top-content {
+  width: 960px;
+  height: 394px;
+  border: 1px solid #e5482b;
+  background-image: url("./img/content_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding: 41px 20px 0px 22px;
+  margin-bottom: 18px;
+}
+
+.img-block {
+  float: left;
+}
+
+.content-img {
+  width: 271px;
+  height: 167px;
+}
+
+.top-content .about-content {
+  width: 271px;
+  height: 52px;
+  background: #e5482b;
+  margin-top: 31px;
+  text-align: center;
+  line-height: 52px;
+}
+
+.button-link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.text-block {
+  width: 616px;
+  float: right;
+}
+
+.top-content .main-text {
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 14px;
+}
+
+.second-text {
+  margin-bottom: 1em;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.middle-content {
+  border: 1px solid #8333f1;
+  border-radius: 0px 30px 30px 30px;
+  width: 960px;
+  padding: 38px 0px 28px 48px;
+  background-image: url("./img/decor_img.png");
+  background-repeat: no-repeat;
+  background-position: 95% 80%;
+  margin-bottom: 16px;
+}
+
+.middle-content .about-content {
+  width: 271px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  background: #8333f1;
+  border-radius: 30px 30px 0px 30px;
+  margin-top: 22px;
+}
+
+.middle-head {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 22px;
+}
+
+.middle-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  width: 608px;
+  display: block;
+}
+
+.bottom {
+  width: 954px;
+  height: 290px;
+  margin-bottom: 22px;
+  background-image: url("./img/friends.png"), url("./img/background_carpet.png");
+  background-position: 50% bottom, 0 0;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-image: url("./img/rainbow.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  width: 954px;
+  height: 153px;
+  border-top: 1px solid #2541d3;
+  border-right: 1px solid #de1919;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #09fdc2;
+}
